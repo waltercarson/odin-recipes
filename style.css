@@ -1,7 +1,57 @@
+body {
+    background-color: rgb(232, 228, 226);
+}
+
 h1 {
-    display: block;
-    margin: 20px;
-    color: white;
-    background-color: green;
-    text-align: center;
+    display: flexbox;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid cornsilk;
+    color: cornsilk;
+    background-color: rgb(171, 93, 93);
+}
+
+.sushi {
+    display: inline-block;
+    flex-direction: 1 1 0;
+    color: cornsilk;
+    background-color: rgb(244, 173, 101);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid cornsilk;
+}
+
+.pizza {
+    display: inline-block;
+    flex-direction: 1 1 0;
+    color: cornsilk;
+    background-color: rgb(244, 173, 101);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid cornsilk;
+}
+
+.taco {
+    display: inline-block;
+    flex-direction: 1 1 0;
+    color: cornsilk;
+    background-color: rgb(244, 173, 101);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid cornsilk;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
